@@ -1,4 +1,10 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+
+
 @import 'base/variables';
+@import 'base/animations';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -9,6 +15,11 @@ html, body {
     max-width: 950px;
     margin: 0 auto;
 }
+iframe {
+    width: 100%;
+    height: 630px;
+}
+
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -19,4 +30,7 @@ html, body {
 @import 'blocks/carousel';
 @import 'blocks/catalog';
 @import 'blocks/feed';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
 @import 'blocks/media';
